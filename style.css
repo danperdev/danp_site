@@ -1,0 +1,129 @@
+/* Reset de estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-family: 'Comfortaa', cursive;
+    background-color: #383838;
+}
+
+header {
+    background-color: #2d2d2d;
+    padding: 16px;
+    border-bottom: solid 1px #6c6c6c;
+    font-family: 'Tektur', cursive;
+}
+
+header img {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 870px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.danpa {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 640px;
+    margin-bottom: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration:overline;
+    color: #8053b3;
+}
+
+header .container {
+    justify-content: space-between;
+}
+
+
+#about {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #f3f3f3;
+}
+
+#games, #playlists,
+#watch {
+    text-align: center;
+    font-size: 18px;
+    color: #f3f3f3;
+}
+
+#games p,
+#playlists p,
+#watch p {
+    margin-top: 40px;
+}
+
+.games img,
+.watch img {
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.games li,
+.playlists li,
+.watch li {
+    display: inline;
+    margin-right: 15px;
+}
+
+section h3,
+.playlists {
+    margin-top: 30px;
+}
+
+.social-links img {
+    height: 48px;
+    margin-top: 16px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 5px;
+    
+}
+
+.social-links li a {
+    text-decoration: none;
+    
+}
+
+footer {
+        background-color:#2d2d2d;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: center;
+        color: #eaeaea;
+        margin-top: 10px;
+        height: 80px;
+    }
